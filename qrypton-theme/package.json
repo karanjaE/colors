@@ -1,0 +1,23 @@
+{
+  "name": "qrypton-theme",
+  "version": "1.0.0",
+  "description": "Based off Tomorrow Night Vim theme by",
+  "scripts": {},
+  "license": "MIT",
+  "publisher": "karanjaE",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "QryptonTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qrypton-theme.json"
+      }
+    ]
+  }
+}
